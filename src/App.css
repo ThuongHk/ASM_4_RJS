@@ -1,0 +1,42 @@
+/* PHẦN FOOTER */
+.footer{
+  height: 30%;
+  background-color: #0DCAF0;
+ 
+}
+.footer .row .mt-5{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.footer .row li{
+  list-style-type: none;
+}
+.footer .row .siba_right{
+  display: flex;
+  padding-top: 70px;
+  
+}
+.footer .row .siba_right li{
+  margin-right: 20px;
+}
+.footer .row .siba_right li i{
+  font-size: 30px;
+}
+.footer .row .siba_left{
+    padding-left: 80px;
+}
+/*  PHẦN NAVBAR */
+.nav a{
+  text-decoration: none;
+ 
+}
+.nav .navb{
+  margin-left: 40px;
+}
+.nav .navb .text-warning{
+  margin-right: 15px;
+}
+.nav .navb i{
+  font-size: 20px;
+
+}

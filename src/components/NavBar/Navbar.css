@@ -1,0 +1,29 @@
+/* Link{
+    line-height: 100%;
+} */
+
+.light {
+    /* background-color: red; */
+    color: white;
+    margin-right: 15px;
+    
+}
+.dark{
+    /* background-color: pink; */
+    color: rgb(36, 217, 237);
+    margin-right: 15px;
+
+}
+.fa-cannabis{
+    color: rgb(243, 162, 11);
+line-height: 40px;
+margin-right: 15px;
+    
+}
+.navb{
+    display:flex;
+    line-height: 40px;
+}
+.nav{
+line-height: 50px;
+}
