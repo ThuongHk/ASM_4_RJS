@@ -71,7 +71,7 @@ function AddStaff(props) {
       birthday: data.birthday,
       salaryScale: data.salaryScale,
       startDate: data.startDate,
-      department: data.department,
+      departmentId: data.departmentId,
       annualLeave: data.annualLeave,
       overTime: data.overTime,
       image: '/assets/images/daidien.png'
@@ -83,7 +83,7 @@ function AddStaff(props) {
 
   return (
     <div className='container'>
-      <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop"  onClick={toggleModal}>
+      <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop" onClick={toggleModal}>
         +
       </button>
 
@@ -95,7 +95,7 @@ function AddStaff(props) {
               <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div className="modal-body">
-              <form onSubmit={handleSubmit(onLoginSubmit)}>
+              <form onSubmit={handleSubmit(onLoginSubmit)}>                
                 <div className="form-group">
                   <label >Họ và tên: </label>
                   <input type="text" {...register('name')}
@@ -127,13 +127,14 @@ function AddStaff(props) {
 
                 <div className="form-group">
                   <label>Phòng ban:</label>
-                  <select className="form-control"  {...register('department')} id="department" >
-                    <option value='Sale'>Sale</option>
-                    <option value='HR'>HR</option>
-                    <option value='Marketing'>Marketing</option>
-                    <option value='IT'>IT</option>
-                    <option value='Finance'>Finance</option>
+                  <select className="form-control"  {...register('departmentId')} >
+                    <option value='Dept01'>Sale</option>
+                    <option value='Dept02'>Hr</option>
+                    <option value='Dept03'>Marketing</option>
+                    <option value='Dept04'>It</option>
+                    <option value='Dept05'>Fiance</option>
                   </select>
+
                   {/* {errors.department && 
                       <p className="error">{errors.department?.message}</p>}   */}
                 </div>

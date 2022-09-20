@@ -8,27 +8,24 @@ import {
 
 const DetailDepartment = () => {
   const params = useParams();
+  // lấy data phòng ban từ server về
   const detailDepartment = useSelector(listDepartmentSelector);
+  // lấy ra list nhân viên
   const detailStaffDepartment = useSelector(listStaffSelector);
+  
+  // Tạm thời cứ chỉ quan tâm tới thằng phòng ban đã, mỗi khi thằng ngoài click vào từng thằng
+  //  phòng ban thì nó cho ra tên của một phòng ban, id của thằng phòng ban thì chỉ có một, nó trùng với
+  // đường dẫn departmentId của thằng staff
+  const showDetail = detailDepartment.find( detail1 => detail1.id.toString() === params.departmentId );
 
-  const showDetail = detailDepartment.filter(
-    (detail1) => detail1.id === params.departmentId
-  );
-  const showStaffDepar = detailStaffDepartment.filter(
-    (detail2) => detail2.departmentId === params.departmentId
-  );
-
-  const showScreenDepartment = showDetail.map((show) => {
-    return (
-      <div>
-        <h5>Nhân Viên Phòng: {show.name}</h5>
-      </div>
-    );
-  });
+  // Số lượng nhân viên có trong từng phần ban, dưới đây là khi click vào từng thằng phòng ban, thì những 
+  //  thằng staff có departmentId trùng với id của thằng phòng ban cũng sẽ show ra vì nó trùng nhau
+  const showStaffDepar = detailStaffDepartment.filter(detail2 => detail2.departmentId === params.departmentId  );
+  
 
   return (
     <div className="container-fluid">
-      <div className="row">{showScreenDepartment}</div>
+      <div className="row"><h6><b>Nhân viên phòng ban: {showDetail?.name}</b></h6></div>
       <div className="row">
         {showStaffDepar.map((staff) => {
           return (
