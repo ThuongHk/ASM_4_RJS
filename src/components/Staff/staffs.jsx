@@ -43,7 +43,7 @@ export const STAFFS =
             department: "Sale",
             annualLeave: 1,
             overTime: 1,
-            image: '/assets/images/daidien.png',
+            image: '/assets/images/alberto.png',
         },
         {
             id: 1,
@@ -54,7 +54,7 @@ export const STAFFS =
             department: "HR",
             annualLeave: 2,
             overTime: 3,
-            image: '/assets/images/daidien.png',
+            image: '/assets/images/alberto.png',
         },
         {
             id: 2,
@@ -65,7 +65,7 @@ export const STAFFS =
             department: "IT",
             annualLeave: 4,
             overTime: 5,
-            image: '/assets/images/daidien.png',
+            image: '/assets/images/alberto.png',
         },
         {
             id: 3,
@@ -76,7 +76,7 @@ export const STAFFS =
             department: "Marketing",
             annualLeave: 6,
             overTime: 7,
-            image: '/assets/images/daidien.png',
+            image: '/assets/images/alberto.png',
         },
         {
             id: 4,
@@ -87,7 +87,7 @@ export const STAFFS =
             department:  "HR",
             annualLeave: 8,
             overTime: 1,
-            image: '/assets/images/daidien.png',
+            image: '/assets/images/alberto.png',
         },
         {
             id: 5,
@@ -98,7 +98,7 @@ export const STAFFS =
             department: "IT",
             annualLeave: 9,
             overTime: 10,
-            image: '/assets/images/daidien.png',
+            image: '/assets/images/alberto.png',
         },
         {
             id: 6,
@@ -109,7 +109,7 @@ export const STAFFS =
             department: "IT",
             annualLeave: 9,
             overTime: 10,
-            image: '/assets/images/daidien.png',
+            image: '/assets/images/alberto.png',
         },
         {
             id: 7,
@@ -120,7 +120,7 @@ export const STAFFS =
             department:  "HR",
             annualLeave: 9,
             overTime: 10,
-            image: '/assets/images/daidien.png',
+            image: '/assets/images/alberto.png',
         },
         {
             id: 8,
@@ -131,7 +131,7 @@ export const STAFFS =
             department: "Marketing",
             annualLeave: 9,
             overTime: 10,
-            image: '/assets/images/daidien.png',
+            image: '/assets/images/alberto.png',
         },
         {
             id: 9,
@@ -142,7 +142,7 @@ export const STAFFS =
             department: "IT",
             annualLeave: 9,
             overTime: 10,
-            image: '/assets/images/daidien.png',
+            image: '/assets/images/alberto.png',
         },
         {
             id: 10,
@@ -153,7 +153,7 @@ export const STAFFS =
             department: "IT",
             annualLeave: 9,
             overTime: 10,
-            image: '/assets/images/daidien.png',
+            image: '/assets/images/alberto.png',
         },
         {
             id: 11,
@@ -164,7 +164,7 @@ export const STAFFS =
             department:"IT",
             annualLeave: 9,
             overTime: 10,
-            image: '/assets/images/daidien.png',
+            image: '/assets/images/alberto.png',
         },
         {
             id: 12,
@@ -175,7 +175,7 @@ export const STAFFS =
             department: "IT",
             annualLeave: 9,
             overTime: 10,
-            image: '/assets/images/daidien.png',
+            image: '/assets/images/alberto.png',
         },
         {
             id: 13,
@@ -186,7 +186,7 @@ export const STAFFS =
             department: "IT",
             annualLeave: 9,
             overTime: 10,
-            image: '/assets/images/daidien.png',
+            image: '/assets/images/alberto.png',
         },
         {
             id: 14,
@@ -197,7 +197,7 @@ export const STAFFS =
             department: "IT",
             annualLeave: 9,
             overTime: 10,
-            image: '/assets/images/daidien.png',
+            image: '/assets/images/alberto.png',
         },
         {
             id: 15,
@@ -208,7 +208,7 @@ export const STAFFS =
             department: "IT",
             annualLeave: 9,
             overTime: 10,
-            image: '/assets/images/daidien.png',
+            image: '/assets/images/alberto.png',
         }
 
     ]
